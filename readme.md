@@ -192,7 +192,7 @@ Copyright © 2026 Abhishek Singh. Distributed under the [MIT License](LICENSE).
 If you find this open-source computational solver and reactor benchmark useful for your research or educational work, consider supporting further development:
 
 [![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/Abhishek1033ubuntu)
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/abhishek1033)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/abhishek1033ubuntu)
 
 * **PayPal:** `abhishek1033@gmail.com`
 * **Sponsorship Focus:** Computational infrastructure expansion for 3D OpenMC neutron transport coupling and multi-GPU acceleration.
