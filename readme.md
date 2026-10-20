@@ -183,10 +183,6 @@ This project was conceptualized, architecturalized, and directed by **Abhishek S
 
 ---
 
-## License
-
-Copyright © 2026 Abhishek Singh. Distributed under the [MIT License](LICENSE).
-
 ## Support & Sponsorship
 
 If you find this open-source computational solver and reactor benchmark useful for your research or educational work, consider supporting further development:
@@ -196,3 +192,9 @@ If you find this open-source computational solver and reactor benchmark useful f
 
 * **PayPal:** `abhishek1033@gmail.com`
 * **Sponsorship Focus:** Computational infrastructure expansion for 3D OpenMC neutron transport coupling and multi-GPU acceleration.
+
+---
+
+## License
+
+Copyright © 2026 Abhishek Singh. Distributed under the [MIT License](LICENSE).
