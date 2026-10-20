@@ -105,9 +105,10 @@ Rather than requiring multi-megajoule ICF target gains ($Q > 100$) that push phy
 2. **Driver & Thermal Loop Upgrades:** Upgrading to diode-pumped solid-state lasers ($\eta_{\text{driver}} = 18\%$) reduces internal power consumption from $75.0\text{ MW}_e$ to $50.0\text{ MW}_e$.
 3. **3D Realism Allowance:** Factoring in a $10\%$ neutron streaming loss through laser beam entrance ports still yields a gross generation of $71.5\text{ MW}_e$.
 
+```
 [ HYBRID FISSION-FUSION PARADIGM ] 1.8 MJ Laser Driver (@ 18% Eff) ──> 50.0 MWe Recirculating Power Demand Blanket Multiplier (k_eff=0.965)──> 71.5 MWe Gross Electrical Generation
 NET COMMERCIAL OUTPUT ──> +21.5 MWe (COMMERCIALLY PROFITABLE)
-
+```
 
 ## References & Foundational Benchmarks
 
