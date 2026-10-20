@@ -5,7 +5,6 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-green.svg)](https://orcid.org/0009-0004-6913-096X) 
 ![Gemini AI Collaboration](https://img.shields.io/badge/AI--Collaboration-Google%20Gemini%20AI-8E75B2?style=for-the-badge&logo=google&logoColor=white) 
 ![Lead Author](https://img.shields.io/badge/Lead%20Author-Abhishek%20Singh-1E293B?style=for-the-badge&logo=github&logoColor=white) 
-![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white) 
 ![IAEA Compliance](https://img.shields.io/badge/IAEA%20Framework-SSR--3%20%7C%20INFCIRC%2F153-blue?style=for-the-badge&logo=iaea&logoColor=white) 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23507155-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23507155) 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Abhishek1033ubuntu/icf-hybrid-reactor/blob/main/notebooks/Full_Reactor_Simulation.ipynb)  
