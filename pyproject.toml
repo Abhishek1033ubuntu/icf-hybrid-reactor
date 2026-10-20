@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icf-hybrid-reactor"
+version = "1.0.0"
+description = "Numerical simulation benchmark for a commercial sub-critical hybrid fission-fusion reactor"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = [
+    "inertial-confinement-fusion",
+    "hybrid-reactors",
+    "sub-critical-blanket",
+    "lagrangian-hydrodynamics",
+    "flibe-molten-salt",
+    "eurofer97",
+    "computational-physics"
+]
+authors = [
+    { name = "Abhishek Singh", email = "abhishek1033@gmail.com" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "matplotlib>=3.7.0",
+    "numba>=0.57.0",
+    "reportlab>=4.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor"
+Documentation = "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor#readme"
+Repository = "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor.git"
+Issues = "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor/issues"
