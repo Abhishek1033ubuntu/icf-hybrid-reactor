@@ -6,6 +6,7 @@
 ![Gemini AI Collaboration](https://img.shields.io/badge/AI--Collaboration-Google%20Gemini%20AI-8E75B2?style=for-the-badge&logo=google&logoColor=white) 
 ![Lead Author](https://img.shields.io/badge/Lead%20Author-Abhishek%20Singh-1E293B?style=for-the-badge&logo=github&logoColor=white) 
 ![ORCID](https://img.shields.io/badge/ORCID-0009--0004--6913--096X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white) 
+![IAEA Compliance](https://img.shields.io/badge/IAEA%20Framework-SSR--3%20%7C%20INFCIRC%2F153-blue?style=for-the-badge&logo=iaea&logoColor=white)  
 
 An open-source multiphysics simulation and systems engineering benchmark evaluating a **laser-driven Inertial Confinement Fusion (ICF)** spark-ignition core coupled to a **sub-critical FLiBe molten-salt fission blanket** (k<sub>eff</sub> = 0.965). 
 
@@ -180,6 +181,16 @@ icf-hybrid-reactor/
 
 ### Acknowledgments & AI Collaboration Notice
 This project was conceptualized, architecturalized, and directed by **Abhishek Singh**. The computational solver algorithms, numerical stabilization methods, and diagnostic visualization code were co-developed in technical collaboration with **Google Gemini AI**. This repository demonstrates how human physical domain intuition and AI-assisted computational engineering can accelerate open-source research in next-generation energy systems.
+
+---
+
+## IAEA Regulatory & Non-Proliferation Compliance
+
+This conceptual benchmark incorporates **Safeguards-by-Design (SDC)** principles aligned with IAEA guidelines for sub-critical hybrid energy systems:
+
+* **Sub-Critical Safety (IAEA SSR-3):** Operates at $k_{\text{eff}} = 0.965$. Reactor shutdown is immediate upon termination of laser driver pulses ($5\text{ Hz}$), preventing prompt criticality.
+* **Non-Proliferation (INFCIRC/153 & 540):** The FLiBe salt blanket utilizes denatured fuel matrices, ensuring bred fissile material remain below weapons-usable isotopic thresholds.
+* **Material Balance Areas (MBA):** Incorporates simulated Key Measurement Points (KMPs) for continuous online mass spectroscopy and tritium accountability ($\text{TBR} = 1.15$).
 
 ---
 
