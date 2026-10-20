@@ -25,9 +25,9 @@ def bosch_hale_dt_reactivity(T_keV):
     theta = T_keV / (1.0 - (T_keV * (C2 + T_keV * (C4 + T_keV * C6))) / 
                              (1.0 + T_keV * (C3 + T_keV * (C5 + T_keV * C7))))
     xi = (BG**2 / (4.0 * theta))**(1.0 / 3.0)
-    sig_v_cm3 = C1 * theta * np.sqrt(xi / (m_r_c2 * T_keV**3)) * np.exp(-3.0 * xi)
-    return sig_v_cm3 * 1e-6
-
+    sig_v = C1 * theta * np.sqrt(xi / (m_r_c2 * T_keV**3)) * np.exp(-3.0 * xi)
+    return sig_v  # <-- Removed * 1e-6 scaling
+    
 @njit(fastmath=True)
 def run_icf_implosion(N_cells=100, is_hdc=True, t_end=10.0e-9):
     """
