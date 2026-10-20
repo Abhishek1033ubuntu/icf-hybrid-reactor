@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, simulation framework, or reactor design paradigm, please cite it as below."
+authors:
+  - family-names: "Singh"
+    given-names: "Abhishek"
+    orcid: "https://orcid.org/0009-0004-6913-096X"
+    email: "abhishek1033@gmail.com"
+title: "Commercial Sub-Critical Hybrid Fission-Fusion Reactor Paradigm"
+version: 1.0.0
+date-released: 2026-10-20
+url: "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor"
+repository-code: "https://github.com/Abhishek1033ubuntu/icf-hybrid-reactor"
+keywords:
+  - inertial-confinement-fusion
+  - hybrid-reactors
+  - sub-critical-blanket
+  - lagrangian-hydrodynamics
+  - flibe-molten-salt
+  - eurofer97
+  - computational-physics
