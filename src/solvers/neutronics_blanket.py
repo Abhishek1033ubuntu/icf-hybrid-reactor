@@ -38,6 +38,26 @@ def analyze_plant_performance(k_eff=0.965, eta_driver=0.18, eta_thermal=0.48,
         "Q_electric": Q_electric
     }
 
+def verify_iaea_subcritical_margin(k_eff):
+    """
+    Verifies reactor compliance with IAEA SSR-3 sub-critical safety guidelines.
+    """
+    MAX_ALLOWED_K_EFF = 0.980 # IAEA sub-critical safety margin ceiling
+    
+    margin = 1.0 - k_eff
+    if k_eff >= 1.0:
+        status = "NON-COMPLIANT (Critical / Prompt Excursion Risk)"
+    elif k_eff > MAX_ALLOWED_K_EFF:
+        status = "WARNING (Sub-Critical Margin Below IAEA Threshold)"
+    else:
+        status = f"COMPLIANT (IAEA SSR-3 Passively Safe, Margin = {margin*100:.1f}%)"
+        
+    return {
+        "k_eff": k_eff,
+        "reactivity_margin_dk": margin,
+        "iaea_ssr3_status": status
+    }
+
 if __name__ == "__main__":
     res = analyze_plant_performance()
     print("OPTIMIZED HYBRID PLANT PERFORMANCE:")
