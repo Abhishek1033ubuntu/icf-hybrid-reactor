@@ -131,22 +131,34 @@ This simulation framework integrates open-access physical formulations, non-clas
 
 ```text
 icf-hybrid-reactor/
-├── README.md                      # Master architecture overview and technical spec sheet
-├── LICENSE                        # Open-source license (MIT License)
-├── CITATION.cff                   # Machine-readable academic citation metadata
+├── .github/
+│   └── FUNDING.yml                  # GitHub sponsorship & PayPal portal configuration
 ├── docs/
-│   ├── Executive_Spec_Sheet.pdf   # Standalone executive specification sheet
-│   └── Theory_Formulation.pdf     # Derivations for 3T hydro, neutronics & first-wall mechanics
+│   ├── Executive_Spec_Sheet.pdf     # Standalone executive specification sheet
+│   ├── Theory_Formulation.pdf       # Derivations for 3T hydro, neutronics & first-wall stress
+│   └── IAEA_Safeguards_Compliance.md# IAEA SSR-3 & INFCIRC 3S regulatory compliance matrix
+├── notebooks/
+│   └── Full_Reactor_Simulation.ipynb# Master Google Colab-ready interactive notebook
 ├── src/
+│   ├── __init__.py                  # Root package initialization marker
 │   ├── solvers/
-│   │   ├── hydro_1d_3T.py         # Numba JIT-compiled Lagrangian hydrodynamics solver
-│   │   ├── neutronics_blanket.py  # Sub-critical multiplication & power flow model
-│   │   ├── thermal_hydraulics.py  # FLiBe coolant loop transient temperature solver
-│   │   └── mechanics_firstwall.py # EUROFER97 dynamic stress & SDOF solver
+│   │   ├── __init__.py              # Solvers sub-package initialization marker
+│   │   ├── hydro_1d_3T.py           # Numba JIT-compiled 1D 3T Lagrangian hydrodynamics solver
+│   │   ├── neutronics_blanket.py    # Sub-critical multiplication & power balance solver
+│   │   ├── thermal_hydraulics.py    # FLiBe coolant loop transient temperature solver
+│   │   └── mechanics_firstwall.py   # EUROFER97 dynamic stress & SDOF solver
 │   └── visualization/
-│       └── plot_diagnostics.py    # Dual-axis plotting utilities and formatting tools
-└── notebooks/
-    └── Full_Reactor_Simulation.ipynb # Interactive Google Colab master notebook
+│       ├── __init__.py              # Visualization sub-package initialization marker
+│       └── plot_diagnostics.py      # Dual-axis plotting utilities and formatting tools
+├── .gitignore                       # Git file and environment exclusion rules
+├── CHANGELOG.md                     # Semantic versioning release history (v1.0.0)
+├── CITATION.cff                      # Machine-readable academic citation metadata (ORCID integrated)
+├── CONTRIBUTING.md                  # Development workflow & academic contribution guidelines
+├── LICENSE                          # MIT License
+├── pyproject.toml                   # Python package build manifest & dependency requirements
+├── README.md                        # Master project documentation, badges & spec tables
+└── SECURITY.md                      # Vulnerability & numerical stability reporting policy
+
 ```
 
 ---
